@@ -23,7 +23,7 @@ elif (index > 25 and index <= 30):
     print("{:.2f} -> Overweight".format(index))
   
 elif (index > 30 and index <= 34.9):
-    print(f"{:.2f} -> Obese".format(index))
+    print("{:.2f} -> Obese".format(index))
 
 else:
     print("{:.2f} -> Extremely obese".format(index))
